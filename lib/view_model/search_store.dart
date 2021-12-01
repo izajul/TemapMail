@@ -3,7 +3,7 @@ import 'package:temp_mail/model/search.model.dart';
 import 'package:temp_mail/network/api_response.dart';
 import 'package:temp_mail/view_model/respo/search.repo.dart';
 
-part 'respo/search_store.g.dart';
+part 'search_store.g.dart';
 
 class SearchStore extends _SearchStore with _$SearchStore {
   SearchStore(SearchDomainRepo repo) : super(repo);
