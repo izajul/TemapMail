@@ -1,21 +1,10 @@
 import 'package:flutter/material.dart';
 
 final theme = ThemeData(
-    // This is the theme of your application.
-    //
-    // Try running your application with "flutter run". You'll see the
-    // application has a blue toolbar. Then, without quitting the app, try
-    // changing the primarySwatch below to Colors.green and then invoke
-    // "hot reload" (press "r" in the console where you ran "flutter run",
-    // or simply save your changes to "hot reload" in a Flutter IDE).
-    // Notice that the counter didn't reset back to zero; the application
-    // is not restarted.
     fontFamily: "Georgia",
     brightness: Brightness.dark,
     primarySwatch: TempColors.primary,
     primaryColor: TempColors.primary,
-    colorScheme:
-        theme.colorScheme.copyWith(secondary: TempColors.primaryAccent),
     backgroundColor: Colors.white,
     textTheme: textTheme,
     shadowColor: TempColors.shadow,
@@ -54,16 +43,16 @@ class TempColors {
   static const _shadow = 0xfff3f5fc;
 
   static const primary = MaterialColor(_primary, <int, Color>{
-    50: Color(0xfffdc4cd),
-    100: Color(0xfffaa1af),
-    200: Color(0xfff8778b),
-    300: Color(0xffee536c),
-    400: Color(0xffe2415a),
-    500: Color(0xffc42c44),
-    600: Color(0xffb4243b),
-    700: Color(0xffa31d33),
-    800: Color(0xff93192c),
-    900: Color(0xff820d20),
+    50: Color(0xff81f8dc),
+    100: Color(0xff44ecc5),
+    200: Color(0xff1ddcb0),
+    300: Color(0xff09dba9),
+    400: Color(0xff00C497),
+    500: Color(0xff01aa85),
+    600: Color(0xff009271),
+    700: Color(0xff018063),
+    800: Color(0xff00654e),
+    900: Color(0xff005542),
   });
   static const primaryAccent = MaterialColor(_primaryAccent, <int, Color>{
     50: Color(0xffc193f8),
